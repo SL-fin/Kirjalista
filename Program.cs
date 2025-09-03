@@ -1,4 +1,6 @@
-﻿namespace Kirjalista;
+﻿using System.Collections;
+
+namespace Kirjalista;
 
 class Program
 {
@@ -6,6 +8,8 @@ class Program
     {
         Kirjalista kirjalista = new Kirjalista();
 
-        kirjalista.LisaaKirja();
+        UI.ShowMainMenu();
+       
     }
 }
+
